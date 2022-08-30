@@ -1,0 +1,42 @@
+import java.util.*;
+public class App {
+    public static void main(String[] args) throws Exception {
+        
+        String Top5TourDestinationInPh = "BoracayChocolateHillsBatanesPuertoPrincessaSagada";
+
+        String[] MyTop5TouristDestinationInPhilippines = {"Boracay", "ChocolateHills","Batanes", "PuertoPrincessa", "Sagada" };
+
+        //Boracay = 0
+
+        for (int i = 0; i < 5; i++) {
+    System.out.println(MyTop5TouristDestinationInPhilippines[i]);
+    }
+//Stk.push
+
+Stack <String> stk = new Stack<>();
+
+       stk.push("White Notebook");
+       stk.push("Red Notebook");
+       stk.push("Black Notebook");
+
+       stk.pop();
+       System.out.println(stk);
+
+//Queue
+            Queue<String> HotelRoomreservation = new LinkedList<>();
+            HotelRoomreservation.add("Patrice");
+            HotelRoomreservation.add("Chelsea");
+            HotelRoomreservation.add("Trisha");
+            HotelRoomreservation.add("Shiena");
+            HotelRoomreservation.add("Audrey");
+            
+            
+            System.out.println("The Queue is: " + HotelRoomreservation);
+            HotelRoomreservation.remove();
+
+            System.out.println("The Queue is: " + HotelRoomreservation);
+
+
+
+    }
+}
